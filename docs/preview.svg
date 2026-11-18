@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Vista previa del panel Nimbus">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f17"/>
+      <stop offset="1" stop-color="#111a2c"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6d8bff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#6d8bff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6d8bff"/>
+      <stop offset="1" stop-color="#22d3a6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <rect x="0" y="0" width="230" height="720" fill="#0e1524"/>
+  <line x1="230" y1="0" x2="230" y2="720" stroke="#1f2937"/>
+
+  <!-- marca -->
+  <rect x="26" y="28" width="34" height="34" rx="11" fill="url(#mark)"/>
+  <text x="43" y="51" font-family="Segoe UI, sans-serif" font-size="17" font-weight="700" fill="#06121f" text-anchor="middle">N</text>
+  <text x="72" y="52" font-family="Segoe UI, sans-serif" font-size="18" font-weight="700" fill="#e5e9f2">Nimbus</text>
+
+  <!-- nav -->
+  <rect x="18" y="92" width="194" height="38" rx="10" fill="#6d8bff" fill-opacity="0.14"/>
+  <text x="40" y="117" font-family="Segoe UI, sans-serif" font-size="14" fill="#e5e9f2">◈  Resumen</text>
+  <text x="40" y="161" font-family="Segoe UI, sans-serif" font-size="14" fill="#9aa7bd">▤  Ventas</text>
+  <text x="40" y="199" font-family="Segoe UI, sans-serif" font-size="14" fill="#9aa7bd">◍  Clientes</text>
+  <text x="40" y="237" font-family="Segoe UI, sans-serif" font-size="14" fill="#9aa7bd">▦  Productos</text>
+  <text x="40" y="275" font-family="Segoe UI, sans-serif" font-size="14" fill="#9aa7bd">⚙  Ajustes</text>
+
+  <text x="26" y="620" font-family="Segoe UI, sans-serif" font-size="11" fill="#93a1b8" letter-spacing="1.6">PERIODO</text>
+  <rect x="22" y="632" width="186" height="36" rx="12" fill="#94a3b8" fill-opacity="0.08"/>
+  <rect x="26" y="636" width="58" height="28" rx="8" fill="#111827"/>
+  <text x="55" y="655" font-family="Segoe UI, sans-serif" font-size="12" fill="#e5e9f2" text-anchor="middle">7 días</text>
+  <text x="113" y="655" font-family="Segoe UI, sans-serif" font-size="12" fill="#93a1b8" text-anchor="middle">30 días</text>
+  <text x="172" y="655" font-family="Segoe UI, sans-serif" font-size="12" fill="#93a1b8" text-anchor="middle">90 días</text>
+
+  <!-- cabecera -->
+  <text x="270" y="58" font-family="Segoe UI, sans-serif" font-size="11" fill="#93a1b8" letter-spacing="1.6">PANEL DE VENTAS</text>
+  <text x="270" y="92" font-family="Segoe UI, sans-serif" font-size="24" font-weight="700" fill="#e5e9f2">Resumen · últimos 30 días</text>
+  <rect x="1120" y="50" width="42" height="42" rx="12" fill="#111827" stroke="#1f2937"/>
+  <text x="1141" y="77" font-family="Segoe UI, sans-serif" font-size="17" fill="#e5e9f2" text-anchor="middle">☀</text>
+
+  <!-- KPIs -->
+  <g>
+    <rect x="270" y="120" width="206" height="102" rx="16" fill="#111827" fill-opacity="0.85" stroke="#1f2937"/>
+    <text x="290" y="146" font-family="Segoe UI, sans-serif" font-size="12" fill="#93a1b8">Ingresos</text>
+    <text x="290" y="178" font-family="Segoe UI, sans-serif" font-size="24" font-weight="700" fill="#e5e9f2">184.320 €</text>
+    <text x="290" y="200" font-family="Segoe UI, sans-serif" font-size="12" fill="#34d399">▲ 12,4 %</text>
+    <text x="352" y="200" font-family="Segoe UI, sans-serif" font-size="11" fill="#93a1b8">vs. periodo anterior</text>
+  </g>
+  <g>
+    <rect x="490" y="120" width="206" height="102" rx="16" fill="#111827" fill-opacity="0.85" stroke="#1f2937"/>
+    <text x="510" y="146" font-family="Segoe UI, sans-serif" font-size="12" fill="#93a1b8">Pedidos</text>
+    <text x="510" y="178" font-family="Segoe UI, sans-serif" font-size="24" font-weight="700" fill="#e5e9f2">2.184</text>
+    <text x="510" y="200" font-family="Segoe UI, sans-serif" font-size="12" fill="#34d399">▲ 8,1 %</text>
+  </g>
+  <g>
+    <rect x="710" y="120" width="206" height="102" rx="16" fill="#111827" fill-opacity="0.85" stroke="#1f2937"/>
+    <text x="730" y="146" font-family="Segoe UI, sans-serif" font-size="12" fill="#93a1b8">Ticket medio</text>
+    <text x="730" y="178" font-family="Segoe UI, sans-serif" font-size="24" font-weight="700" fill="#e5e9f2">84 €</text>
+    <text x="730" y="200" font-family="Segoe UI, sans-serif" font-size="12" fill="#34d399">▲ 3,6 %</text>
+  </g>
+  <g>
+    <rect x="930" y="120" width="232" height="102" rx="16" fill="#111827" fill-opacity="0.85" stroke="#1f2937"/>
+    <text x="950" y="146" font-family="Segoe UI, sans-serif" font-size="12" fill="#93a1b8">Tasa de conversión</text>
+    <text x="950" y="178" font-family="Segoe UI, sans-serif" font-size="24" font-weight="700" fill="#e5e9f2">3,4 %</text>
+    <text x="950" y="200" font-family="Segoe UI, sans-serif" font-size="12" fill="#f87171">▼ 1,8 %</text>
+  </g>
+
+  <!-- gráfico -->
+  <rect x="270" y="244" width="626" height="300" rx="16" fill="#111827" fill-opacity="0.85" stroke="#1f2937"/>
+  <text x="292" y="276" font-family="Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#e5e9f2">Ingresos por día</text>
+  <text x="292" y="296" font-family="Segoe UI, sans-serif" font-size="12" fill="#93a1b8">184.320 € en total · 30 días</text>
+
+  <g stroke="#94a3b8" stroke-opacity="0.14">
+    <line x1="330" y1="340" x2="872" y2="340"/>
+    <line x1="330" y1="392" x2="872" y2="392"/>
+    <line x1="330" y1="444" x2="872" y2="444"/>
+    <line x1="330" y1="496" x2="872" y2="496"/>
+  </g>
+  <text x="322" y="344" font-family="Segoe UI, sans-serif" font-size="10" fill="#93a1b8" text-anchor="end">9 mil</text>
+  <text x="322" y="396" font-family="Segoe UI, sans-serif" font-size="10" fill="#93a1b8" text-anchor="end">6 mil</text>
+  <text x="322" y="448" font-family="Segoe UI, sans-serif" font-size="10" fill="#93a1b8" text-anchor="end">3 mil</text>
+  <text x="322" y="500" font-family="Segoe UI, sans-serif" font-size="10" fill="#93a1b8" text-anchor="end">0</text>
+
+  <path d="M330,470 C380,455 400,430 440,438 C480,446 500,400 545,392 C590,384 610,415 655,398 C700,381 720,340 765,352 C810,364 840,330 872,336 L872,516 L330,516 Z" fill="url(#area)"/>
+  <path d="M330,470 C380,455 400,430 440,438 C480,446 500,400 545,392 C590,384 610,415 655,398 C700,381 720,340 765,352 C810,364 840,330 872,336" fill="none" stroke="#6d8bff" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="765" cy="352" r="5" fill="#6d8bff" stroke="#0e1524" stroke-width="2"/>
+  <text x="330" y="534" font-family="Segoe UI, sans-serif" font-size="10" fill="#93a1b8">20 oct</text>
+  <text x="470" y="534" font-family="Segoe UI, sans-serif" font-size="10" fill="#93a1b8">27 oct</text>
+  <text x="610" y="534" font-family="Segoe UI, sans-serif" font-size="10" fill="#93a1b8">3 nov</text>
+  <text x="750" y="534" font-family="Segoe UI, sans-serif" font-size="10" fill="#93a1b8">10 nov</text>
+  <text x="860" y="534" font-family="Segoe UI, sans-serif" font-size="10" fill="#93a1b8">18 nov</text>
+
+  <!-- canales -->
+  <rect x="914" y="244" width="248" height="300" rx="16" fill="#111827" fill-opacity="0.85" stroke="#1f2937"/>
+  <text x="936" y="276" font-family="Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#e5e9f2">Canales de venta</text>
+  <g font-family="Segoe UI, sans-serif" font-size="12">
+    <text x="936" y="318" fill="#e5e9f2">Web</text>
+    <text x="1140" y="318" fill="#93a1b8" text-anchor="end">84.200 €</text>
+    <rect x="936" y="328" width="204" height="8" rx="4" fill="#94a3b8" fill-opacity="0.14"/>
+    <rect x="936" y="328" width="106" height="8" rx="4" fill="#6d8bff"/>
+    <text x="936" y="358" fill="#93a1b8" font-size="11">46,2 %</text>
+
+    <text x="936" y="392" fill="#e5e9f2">Marketplace</text>
+    <text x="1140" y="392" fill="#93a1b8" text-anchor="end">44.300 €</text>
+    <rect x="936" y="402" width="204" height="8" rx="4" fill="#94a3b8" fill-opacity="0.14"/>
+    <rect x="936" y="402" width="56" height="8" rx="4" fill="#6d8bff"/>
+    <text x="936" y="432" fill="#93a1b8" font-size="11">24,1 %</text>
+
+    <text x="936" y="466" fill="#e5e9f2">Tienda física</text>
+    <text x="1140" y="466" fill="#93a1b8" text-anchor="end">33.400 €</text>
+    <rect x="936" y="476" width="204" height="8" rx="4" fill="#94a3b8" fill-opacity="0.14"/>
+    <rect x="936" y="476" width="42" height="8" rx="4" fill="#22d3a6"/>
+    <text x="936" y="506" fill="#93a1b8" font-size="11">18,1 %</text>
+  </g>
+
+  <!-- tabla -->
+  <rect x="270" y="562" width="892" height="132" rx="16" fill="#111827" fill-opacity="0.85" stroke="#1f2937"/>
+  <text x="292" y="590" font-family="Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#e5e9f2">Productos</text>
+  <text x="292" y="610" font-family="Segoe UI, sans-serif" font-size="11" fill="#93a1b8">Producto</text>
+  <text x="700" y="610" font-family="Segoe UI, sans-serif" font-size="11" fill="#93a1b8">Unidades</text>
+  <text x="840" y="610" font-family="Segoe UI, sans-serif" font-size="11" fill="#93a1b8">Ingresos</text>
+  <text x="1010" y="610" font-family="Segoe UI, sans-serif" font-size="11" fill="#93a1b8">Stock</text>
+  <line x1="292" y1="620" x2="1140" y2="620" stroke="#1f2937"/>
+
+  <g font-family="Segoe UI, sans-serif" font-size="12.5" fill="#e5e9f2">
+    <text x="292" y="644">Auriculares Pulse Pro</text>
+    <text x="292" y="659" font-size="10.5" fill="#93a1b8">Audio</text>
+    <text x="700" y="648" fill="#93a1b8">312</text>
+    <text x="840" y="648" fill="#93a1b8">40.248 €</text>
+    <rect x="1010" y="636" width="52" height="18" rx="9" fill="#f87171" fill-opacity="0.14"/>
+    <text x="1036" y="649" font-size="11" fill="#f87171" text-anchor="middle">12 u.</text>
+
+    <text x="292" y="682">Monitor UltraWide 34"</text>
+    <text x="292" y="697" font-size="10.5" fill="#93a1b8">Pantallas</text>
+    <text x="700" y="686" fill="#93a1b8">88</text>
+    <text x="840" y="686" fill="#93a1b8">39.512 €</text>
+    <rect x="1010" y="674" width="52" height="18" rx="9" fill="#94a3b8" fill-opacity="0.14"/>
+    <text x="1036" y="687" font-size="11" fill="#93a1b8" text-anchor="middle">80 u.</text>
+  </g>
+</svg>
