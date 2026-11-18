@@ -45,15 +45,20 @@ export default function App() {
             )}
           </div>
 
-          <button
-            type="button"
-            className="icon-button"
-            onClick={toggle}
-            aria-label={theme === "dark" ? "Activar tema claro" : "Activar tema oscuro"}
-            title={theme === "dark" ? "Tema claro" : "Tema oscuro"}
-          >
-            {theme === "dark" ? "☀" : "☾"}
-          </button>
+          <div className="topbar__actions">
+            <a className="topbar__back" href="../../">
+              <span aria-hidden="true">←</span> Portfolio
+            </a>
+            <button
+              type="button"
+              className="icon-button"
+              onClick={toggle}
+              aria-label={theme === "dark" ? "Activar tema claro" : "Activar tema oscuro"}
+              title={theme === "dark" ? "Tema claro" : "Tema oscuro"}
+            >
+              {theme === "dark" ? "☀" : "☾"}
+            </button>
+          </div>
         </header>
 
         <main id="main" className="main">
